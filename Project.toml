@@ -1,0 +1,15 @@
+name = "ApproxInferenceProblems"
+uuid = "446d02ff-70b1-42a0-be41-82bdf2ae71d0"
+authors = ["Johanni Brea <jbrea@users.noreply.github.com>"]
+version = "0.1.0"
+
+[deps]
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
+
+[compat]
+julia = "^1"

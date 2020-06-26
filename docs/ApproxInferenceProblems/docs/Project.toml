@@ -1,0 +1,3 @@
+[deps]
+ApproxInferenceProblems = "446d02ff-70b1-42a0-be41-82bdf2ae71d0"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
