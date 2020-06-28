@@ -9,7 +9,7 @@ struct ApproxInferenceProblem{M,D,P,T}
     prior::P
     target::T
 end
-function Base.show(io::IO, mime::MIME"text/plain", p::ApproxInferenceProblem{M}) where M
+function Base.show(io::IO, mime::MIME"text/plain", p::ApproxInferenceProblem{M}) where {M}
     println(io, "ApproxInferenceProblem{M}")
 end
 
